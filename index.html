@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content=""width=device-width,initial-scale=1.0">
+    <title>TechBuy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div class="top-navbar">
+        <p><img src="images/logo.png" alt="" width="50px"></p>
+        <div class="icons">
+            <a href="login.html"<img src="" alt="" width="20px">Login</a>
+                <a href="signup.html"<img src="" alt="" width="20px">Signup</a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="logo">&emsp;<span id="span1">T</span>echBuy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="./images/menu.png" alt="" width="30px"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(67 0 86);">
+                  <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Smart watch</a></li>
+                  <li><a class="dropdown-item" href="#">Camera</a></li>
+                  <li><a class="dropdown-item" href="#">Laptop</a></li>
+                  <li><a class="dropdown-item" href="#">Headphones</a></li>
+                  <li><a class="dropdown-item" href="#">Mouse</a></li>
+                  <li><a class="dropdown-item" href="#">Airpods</a></li>
+                  <li><a class="dropdown-item" href="#">Android TV</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="payment.html">Make Payment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+            
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <br>
+
+      <section class="home">
+        <div class="content">
+          <h1> <span>Tech Gadgets</span>
+            <br>
+            Up To <span id="span2">20%</span> Off
+          </h1>
+          <p>Shop your favourite products on your favourite place.
+            <br>Get a great deal on products.
+          </p>
+          <div class="btn"><button>Shop Now</button></div>
+    
+        </div>
+      
+      </section>
+    
+      <div class="container" id="product-cards">
+        <h1 class="text-center">PRODUCTS</h1>
+        <div class="row" style="margin-top: 30px;">
+          <div onclick="window.location.href='product.html';" class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img class="img-fluid" src="images/Iphone.png" alt="" width="300" height="300">
+              <div class="card-body">
+                <h3 class="text-center">Iphone 14 pro</h3>
+                <p class="text-center">Iphone 14 pro have fast and snappy A16 Bionic chip.Front camera 12MP, Rear Camera 48MP + 12MP + 12MP.The screen is 6.1 inches diagonally.RAM 6GB,Storage 128GB,256GB</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h4><center>$1399</center> </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="images/Smart watch.png" alt="" width="300" height="300">
+              <div class="card-body">
+                <h3 class="text-center">Smart watch</h3>
+                <p class="text-center">1.91 inches AMOLED flexible capacitive touchscreen while the resolution is 405 x 450 pixels,Scratch Resistant,Water Resistant,50m,5ATM.</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h4><center>$199</center> </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="images/Camera.png" alt="" width="300" height="300">
+              <div class="card-body">
+                <h3 class="text-center">Camera</h3>
+                <p class="text-center">EOS R5 is the full-frame mirrorless camera.8K video,45MP Full-Frame CMOS Sensor,DIGIC X Image Processor.Up to 12fps Mechanical Shutter. </p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h4><center>$699</center> </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="images/laptop.png" alt="" width="300" height="300" >
+              <div class="card-body">
+                <h3 class="text-center">Laptop</h3>
+                <p class="text-center">Intel Core i5 8th Gen,Quad Core,1.6 GHz Clock Speed,1 TB Hard Disk,256 GB SSD,2 GB Intel Graphics Card,Windows 11 OS,39.6cm(15.6),ComfyView(Matte).</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h4><center>$799</center> </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="images/Headphone.png" alt="" width="300" height="300">
+                <div class="card-body">
+                  <h3 class="text-center">Headphone</h3>
+                  <p class="text-center">Bluetooth range of up to 20 feet and can pair with two devices at once.Weight 240g,10 levels of noise cancelling-controls distractions.</p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h4><center>$299</center> </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="images/Blutooth Mouse.png" alt="" width="300" height="300">
+                <div class="card-body">
+                  <h3 class="text-center">Bluetooth Mouse</h3>
+                  <p class="text-center">Elegant design wireless mouse,LightSpeed technology for ultra-fast 1-ms response times,advanced optical sensor.Product dimension 10.8 x 7 x 2.7cm, Weight 60g. </p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
+                  </div>
+                  <h4><center>$199</center> </h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="images/Airpods.png" alt="" width="300" height="300">
+                <div class="card-body">
+                  <h3 class="text-center">Airpods</h3>
+                  <p class="text-center">Airpods pro True Wireless Stereo Earphones.In ear Wireless,With Mic,4.5 Hours Talk Time,5.0 Bluetooth Version,Noise cancellation,5.4gm Weight.</p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h4><center>$499</center></h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="images/Android tv.png" alt="" width="300" height="300">
+                <div class="card-body">
+                  <h3 class="text-center">Android TV</h3>
+                  <p class="text-center">43" 4K Ultra HD Android TV.Operating System Android 9.0,A35 64-bit Quad Core Processor,1 GB RAM, 8 GB Storage,2 speakers,20 W output.Connectivity:2 HDMI.</p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h4><center>$899</center> </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      <div class="container" id="product-cards">
+      <h2 class="text-center">LATEST PRODUCTS</h2>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="images/speakers.jpg" alt="" width="300" height="300">
+            <div class="card-body">
+              <h3 class="text-center">Marshall Speakers</h3>
+              <p class="text-center">Adjustable Bass and Tremble Controls,Bluetooth 5.0 with qualcomm aptX, Frequency range:50-20000 Hz,Solid Design,Crossover frequency 2500Hz.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h4><center>$199</center> </h4>
+            </div>
+          </div>
+        </div>
+      
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="images/mediaplayer.jpg" alt="" width="300" height="300">
+        <div class="card-body">
+          <h3 class="text-center">Portable Media Player</h3>
+          <p class="text-center">With the built-in capacity of 16 GB,memory card upto 128GB,USB-C,3.5mm TRS,80 hours Playback,Battery 5000mAh,Output 70mW,Wi-fi Connectivity,3.6-inch HD.</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h4><center>$29</center> </h4>
+        </div>
+      </div>
+    </div>
+ 
+<div class="col-md-3 py-3 py-md-0">
+  <div class="card">
+    <img src="images/Gaming console.jpg" alt="" width="300" height="300">
+    <div class="card-body">
+      <h3 class="text-center">Gaming Console</h3>
+      <p class="text-center">Dual Sense wireless controller,Dimensions,1600mm x 66m x 106mm,weight 280grams,2 point touchpad,USB Type-C port.</p>
+      <div class="star text-center">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      <h4><center>$79</center> </h4>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 py-3 py-md-0">
+  <div class="card">
+    <img src="images/Vrheadset.jpg" alt="" width="300" height="300">
+    <div class="card-body">
+      <h3 class="text-center">VR Headset</h3>
+      <p class="text-center">Adjustable Headband,Dimensions 195 x 130 x 90,Net weight 320 grams,OLED display,around 90 degree field of view,8GB plus RAM.</p>
+      <div class="star text-center">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      <h4><center>$599</center> </h4>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row" style="margin-top: 30px;">
+<div class="col-md-3 py-3 py-md-0">
+  <div class="card">
+    <img src="images/projector.png" alt="" width="300" height="300">
+    <div class="card-body">
+      <h3 class="text-center">Projector</h3>
+      <p class="text-center">Front,wall or ceiling mount,Projection screen size 30 to 300 inch,Remote control,Power cord,Lens cover,1000 to 2000 lumens brightness.</p>
+      <div class="star text-center">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      <h4><center>$499</center> </h4>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 py-3 py-md-0">
+  <div class="card">
+    <img src="images/Gopro.jpg" alt="" width="300" height="300">
+    <div class="card-body">
+      <h3 class="text-center">GoPro</h3>
+      <p class="text-center">Video:5k/60fps,UHD Video,Micro sensor,480-320 Touch Screen Display,Digital lenses,USB connectivity,Bluetooth,Action camera specs,1080p live streaming.</p>
+      <div class="star text-center">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      <h4><center>$399</center> </h4>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 py-3 py-md-0">
+  <div class="card">
+    <img src="images/Charging Stand.jpg" alt="" width="300" height="300">
+    <div class="card-body">
+      <h3 class="text-center">Wireless charger</h3>
+      <p class="text-center">Fast charge upto 15W,weight 400g,input 5 to 20V 6A max,output 5oW max,magnetic,USB-C port,efficient and secure charging,compatible.</p>
+      <div class="star text-center">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      <h4><center>$40</center> </h4>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 py-3 py-md-0">
+  <div class="card">
+    <img src="images/Homepod.png" alt="" width="300" height="300">
+    <div class="card-body">
+      <h3 class="text-center">Homepod</h3>
+      <p class="text-center">Wireless audio connection,4 inch high excursion woofer,Bluetooth,touchscreen,6.2 inches high,5 inches wide,weighs 5 pounds,white.</p>
+      <div class="star text-center">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      <h4><center>$299</center> </h4>
+    </div>
+  </div>
+</div>
+</div>
+<br><br>
+
+
+
+
+<!---------------brands------------->
+         
+<br><br><br>
+<div class="slider">
+          <div class="slide-track">
+            <div class="slide">
+                <img src="images/samsung.png" height="150" width="200" alt="" />
+              </div>&emsp; &ensp;
+              <div class="slide">
+                <img src="images/apple.png" height="100" width="200" alt="" />
+              </div>&emsp; &ensp;
+              <div class="slide">
+                <img src="images/canon.png" height="150" width="200" alt="" />
+              </div>&emsp; &ensp;
+              <div class="slide">
+                <img src="images/lenovo.png" height="150" width="200" alt="" />
+              </div>&emsp; &ensp;
+              <div class="slide">
+                <img src="images/sony2.jpg" height="100" width="120" alt="" />
+              
+              </div>
+             
+            </div>
+          </div>
+         </div>
+        <br><br><br>
+
+
+<!------------footer------->
+       <div class ="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our APP</h3>
+              <p>Download App for Android and iOS mobile phone.</p> 
+              <div class="app-logo">
+                <img src="images/playstoreimg.jpg">
+                <img src="images/appstoreimg.png">
+              </div>  
+          </div>
+          <div class="footer-col-2">
+          <img src="images/logo.png" width="100px" height="80px">
+        <p>Get in the Tech with us for exploring the future of products.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Benefits</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li>Twitter<img src="" alt=""></li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+
+       </div>
+       <hr>
+       <p class="copyright">
+       © Copyright 2023 TechBuy. All rights reserved.</p>
+      </div>
+      </div>
+
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>        
+</html>

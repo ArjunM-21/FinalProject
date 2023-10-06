@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family:'Merriweather', serif;
+   
+}
+
+.top-navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top-navbar p{
+    margin-top: 13px;
+    margin-left: 15px;
+    
+}
+.top-navbar .icons{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight:bolder;
+    color: #FF5F1F;
+}
+.top-navbar a{
+    text-decoration: none;
+    color: #FF5F1F;
+    margin-left: 10px;
+    
+}
+.top-navbar a img{
+    margin-bottom: 3px;
+   
+    
+}
+.top-navbar a:hover{
+    color: black;
+}
+
+
+/* top navbar */
+
+/* navbar */
+#navbar{
+    background: linear-gradient(#2a0845, #6441a5, #2a0845); 
+     top:0; left:0; right:0;
+     z-index: 100;
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     padding:1rem 20%;
+}
+#logo{
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    
+}
+#logo span{
+    color: #4B0150;
+}
+#logo #span1{
+    font-size: 30px;
+}
+
+.nav-item .nav-link{
+    color:#57FEFF;
+    margin-left: 2px;
+    text-shadow: 0px 0px 1px black;
+    transition: 0.5s ease;
+    margin:0 1rem;
+    
+}
+
+.nav-item .nav-link:hover{
+    color:	#2B1B17;
+    
+}
+.dropdown-menu li a{
+    color: white;
+    transition: 0.5s ease;
+}
+.dropdown-menu li a:hover{
+    background: linear-gradient(to right, #870000, #190a05); 
+    color: #00FFFF;
+}
+/*----------nav--------*/
+
+
+
+
+/*--------footer---------*/
+.footer{
+    background:#000;
+    color:#8a8a8a;
+    font-size:16px;
+    padding:60px 0 20px;
+}
+.footer p{
+    color:#0909FF; 
+}
+.footer h3{
+    color:#fff;
+    margin-bottom:20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width:250px;
+    margin-bottom:20px;
+}
+.footer-col-1{
+    flex-basis:30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+  
+}
+.footer-col-2-img{
+    width:180px;
+    margin-bottom:20px;
+    
+}
+.footer-col-3, .footer-col-4{
+    flex-basis:12%;
+    text-align:center;
+}
+ul{
+    color:aquamarine;
+    list-style-type: none;
+}
+.app-logo{
+    margin-top:20px;
+}
+.app-logo img{
+    width:160px;
+}
+.footer hr{
+    border:none;
+    background:#ffc800;
+    height:2px;
+    margin:10px 0;
+}
+.copyright{
+    text-align:center;
+}

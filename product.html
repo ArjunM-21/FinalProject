@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content=""width=device-width,initial-scale=1.0">
+    <title>TechBuy</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+<style>
+    .small-img-group{
+        display:flex;
+        justify-content:space-between;
+    }
+    .small-img-col{
+        flex-basis:24%;
+        cursor:pointer;
+    }
+    .product select{
+        display: block;
+        padding: 5px 10px;
+
+    }
+    .product input{
+        width: 50px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .product input:focus{
+        outline:none;
+          
+    }
+    .buy-btn{
+        background:#2916F5;
+        opacity: 1;
+        transition: 0.3s all;
+        height:50px;
+        width:150px;
+        color:aliceblue;
+    }
+    body{
+        background: linear-gradient(#2a0845, #6441a5, #2a0845); 
+    }
+    h6{
+        color:aquamarine;
+    }
+    h4{
+        color:aquamarine;
+    }
+    h2{
+        color:aquamarine;
+    }
+    h3{
+        color:aquamarine;
+    }
+    span{
+        color:aliceblue;
+    }
+</style>
+
+
+</head>
+<body>
+    <div class="top-navbar">
+        <p><img src="images/logo.png" alt="" width="50px"></p>
+        <div class="icons">
+            <a href="login.html"<img src="" alt="" width="20px">Login</a>
+                <a href="signup.html"<img src="" alt="" width="20px">Signup</a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="logo">&emsp;<span id="span1">T</span>echBuy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="./images/menu.png" alt="" width="30px"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(67 0 86);">
+                  <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Smart watch</a></li>
+                  <li><a class="dropdown-item" href="#">Camera</a></li>
+                  <li><a class="dropdown-item" href="#">Laptop</a></li>
+                  <li><a class="dropdown-item" href="#">Headphones</a></li>
+                  <li><a class="dropdown-item" href="#">Mouse</a></li>
+                  <li><a class="dropdown-item" href="#">Airpods</a></li>
+                  <li><a class="dropdown-item" href="#">Android TV</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="payment.html">Make Payment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+            
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+<!--------------product-------->
+
+<section class="container product my-5 pt-5">
+    <div class="row mt-5">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 pb-1" src="images/iphone3.jpg" id="Mainimg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="images/iphone3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/iphone5.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/iphone2.jpeg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/iphone4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-12">
+            <h6>Phone</h6>
+            <h3 class="py-4">IPhone 14 pro</h3>
+            <h2>$1399</h2>
+            <select class="my-3">
+                <option>Select Color</option>
+                <option>Green</option>
+                <option>Red</option>
+                <option>Pink</option>
+                <option>Light Blue</option>
+            </select>
+            <input type="number" value="1">
+            <button class= "buy-btn">Add to Cart</button>
+            <h4 class="mt-5 mb-5">Product Details</h4>
+            <span>Iphone 14 pro have fast and snappy A16 Bionic chip.Front camera 12MP, Rear Camera 48MP + 12MP + 12MP.The screen is 6.1 inches diagonally.RAM 6GB,Storage 128GB,256GB</span>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    var Mainimg=document.getElementById('Mainimg');
+    var smallimg=document.getElementsByClassName('small-img');
+
+    smallimg[0].onclick=function(){
+        Mainimg.src=smallimg[0].src;
+    }
+    smallimg[1].onclick=function(){
+        Mainimg.src=smallimg[1].src;
+    }
+    smallimg[2].onclick=function(){
+        Mainimg.src=smallimg[2].src;
+    }
+    smallimg[3].onclick=function(){
+        Mainimg.src=smallimg[3].src;
+    }
+</script>
+
+
+
+
+
+      
+<!------------footer------->
+<div class ="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our APP</h3>
+          <p>Download App for Android and iOS mobile phone.</p> 
+          <div class="app-logo">
+            <img src="images/playstoreimg.jpg">
+            <img src="images/appstoreimg.png">
+          </div>  
+      </div>
+      <div class="footer-col-2">
+      <img src="images/logo.png" width="100px" height="80px">
+    <p>Get in the Tech with us for exploring the future of products.</p>
+    </div>
+    <div class="footer-col-3">
+      <h3>Benefits</h3>
+      <ul>
+        <li>Coupons</li>
+        <li>Return Policy</li>
+        <li>Join Affiliate</li>
+      </ul>
+    </div>
+    <div class="footer-col-4">
+      <h3>Follow us</h3>
+      <ul>
+        <li>Twitter</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>YouTube</li>
+      </ul>
+    </div>
+
+   </div>
+   <hr>
+   <p class="copyright">
+   © Copyright 2023 TechBuy. All rights reserved.</p>
+  </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>        
+</html>
